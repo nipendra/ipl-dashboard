@@ -85,7 +85,7 @@ ipl-dashboard/
 │   ├── live-match.tsx      # Live match display
 │   ├── match-schedule.tsx  # Match schedule component
 │   ├── points-table.tsx    # Points table component
-│   └── theme-provider.tsx  # Theme provider for dark/light mode
+│   └── theme-provider.tsx  # Theme provider
 ├── lib/                    # Utility functions and types
 │   ├── api.ts              # API client functions
 │   ├── dummy-data.ts       # Fallback data
