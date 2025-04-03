@@ -35,11 +35,11 @@ This Next.js application provides cricket fans with a comprehensive dashboard to
 ### Installation
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/ipl-dashboard.git
-cd ipl-dashboard
-```
+   ```bash
+   git clone https://github.com/yourusername/ipl-dashboard.git
+   cd ipl-dashboard
+   ```
+````
 
 2. Install dependencies:
 
@@ -185,4 +185,3 @@ Presents the complete match schedule:
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Lucide React](https://lucide.dev/) for the icon set
-````
