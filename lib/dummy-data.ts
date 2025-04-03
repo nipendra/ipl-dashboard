@@ -1,9 +1,7 @@
 import type { IPLData } from "./types"
 
-const now   =  new Date().toISOString();
-
 export const dummyData: IPLData = {
-  lastUpdated: now,
+  lastUpdated: new Date().toISOString(),
   liveMatch: {
     id: "match1",
     team1: {
@@ -18,7 +16,7 @@ export const dummyData: IPLData = {
       shortName: "MI",
       score: "Yet to bat",
     },
-    date: now,
+    date: new Date().toISOString(),
     venue: "M.A. Chidambaram Stadium, Chennai",
     matchNumber: "Match 23",
     matchType: "League",
@@ -210,7 +208,7 @@ export const dummyData: IPLData = {
         name: "Mumbai Indians",
         shortName: "MI",
       },
-      date: now,
+      date: new Date().toISOString(),
       venue: "M.A. Chidambaram Stadium, Chennai",
       matchNumber: "Match 23",
       matchType: "League",
@@ -307,98 +305,6 @@ export const dummyData: IPLData = {
       matchType: "League",
       status: "upcoming",
     },
-    {
-      id: "match6",
-      team1: {
-        id: "mi",
-        name: "Mumbai Indians",
-        shortName: "MI",
-      },
-      team2: {
-        id: "csk",
-        name: "Chennai Super Kings",
-        shortName: "CSK",
-      },
-      date: new Date(Date.now() + 432000000).toISOString(), // 5 days from now
-      venue: "Wankhede Stadium, Mumbai",
-      matchNumber: "Match 28",
-      matchType: "League",
-      status: "upcoming",
-    },
-    {
-      id: "match6",
-      team1: {
-        id: "mi",
-        name: "Mumbai Indians",
-        shortName: "MI",
-      },
-      team2: {
-        id: "csk",
-        name: "Chennai Super Kings",
-        shortName: "CSK",
-      },
-      date: new Date(Date.now() + 432000000).toISOString(), // 5 days from now
-      venue: "Wankhede Stadium, Mumbai",
-      matchNumber: "Match 28",
-      matchType: "League",
-      status: "upcoming",
-    },
-
-    {
-      id: "match6",
-      team1: {
-        id: "mi",
-        name: "Mumbai Indians",
-        shortName: "MI",
-      },
-      team2: {
-        id: "csk",
-        name: "Chennai Super Kings",
-        shortName: "CSK",
-      },
-      date: new Date(Date.now() + 432000000).toISOString(), // 5 days from now
-      venue: "Wankhede Stadium, Mumbai",
-      matchNumber: "Match 28",
-      matchType: "League",
-      status: "upcoming",
-    },
-    {
-      id: "match6",
-      team1: {
-        id: "mi",
-        name: "Mumbai Indians",
-        shortName: "MI",
-      },
-      team2: {
-        id: "csk",
-        name: "Chennai Super Kings",
-        shortName: "CSK",
-      },
-      date: new Date(Date.now() + 432000000).toISOString(), // 5 days from now
-      venue: "Wankhede Stadium, Mumbai",
-      matchNumber: "Match 28",
-      matchType: "League",
-      status: "upcoming",
-    },
-    {
-      id: "match6",
-      team1: {
-        id: "mi",
-        name: "Mumbai Indians",
-        shortName: "MI",
-      },
-      team2: {
-        id: "csk",
-        name: "Chennai Super Kings",
-        shortName: "CSK",
-      },
-      date: new Date(Date.now() + 432000000).toISOString(), // 5 days from now
-      venue: "Wankhede Stadium, Mumbai",
-      matchNumber: "Match 28",
-      matchType: "League",
-      status: "upcoming",
-    },
-    
   ],
 }
 

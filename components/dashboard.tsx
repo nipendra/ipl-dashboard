@@ -36,7 +36,7 @@ export default function Dashboard() {
 
     // Refresh data every 5 minutes
     const intervalId = setInterval(loadData, 5 * 60 * 1000)
-
+    
     return () => clearInterval(intervalId)
   }, [toast])
 
