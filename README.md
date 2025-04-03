@@ -1,12 +1,3 @@
-Thought for 1 secondTo get a downloadable README file, you can follow these steps:
-
-1. Copy the entire Markdown content I provided earlier
-2. Create a new file named `README.md` on your computer using any text editor
-3. Paste the content into that file
-4. Save the file
-
-Here's the complete README content again for easy copying:
-
 ````markdown
 # IPL T20 Dashboard
 

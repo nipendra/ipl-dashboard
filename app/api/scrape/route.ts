@@ -5,7 +5,7 @@ import { dummyData } from "../../../lib/dummy-data"
 export async function GET() {
   try {
     // Simulating a delay to mimic network request
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    await new Promise((resolve) => setTimeout(resolve, 500))
 
     return NextResponse.json(dummyData)
   } catch (error) {

@@ -41,17 +41,17 @@ export default function Dashboard() {
   }, [toast])
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <header className="sticky top-0 z-10 bg-white dark:bg-gray-800 shadow-sm">
+    <div className="min-h-screen bg-gray-50 ">
+      <header className="sticky top-0 z-10 bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl font-bold text-gray-900 dark:text-white md:text-2xl">IPL T20 Dashboard</h1>
+            <h1 className="text-xl font-bold text-gray-900 md:text-2xl">IPL T20 Dashboard</h1>
             <div className="flex items-center space-x-2">
               <span className="relative flex h-3 w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
               </span>
-              <span className="text-sm text-gray-600 dark:text-gray-300">Live Updates</span>
+              <span className="text-sm text-gray-600 ">Live Updates</span>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Dashboard() {
           <>
             {/* Live/Upcoming Match Section */}
             <section className="mb-8">
-              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4">
+              <h2 className="text-lg font-semibold text-gray-800  mb-4">
                 {data?.liveMatch ? "Live Match" : "Upcoming Match"}
               </h2>
               <LiveMatch match={data?.liveMatch || data?.upcomingMatches?.[0]} />
@@ -95,8 +95,8 @@ export default function Dashboard() {
         )}
       </main>
 
-      <footer className="bg-white dark:bg-gray-800 shadow-inner py-4 mt-8">
-        <div className="container mx-auto px-4 text-center text-sm text-gray-600 dark:text-gray-400">
+      <footer className="bg-white  shadow-inner py-4 mt-8">
+        <div className="container mx-auto px-4 text-center text-sm text-gray-600">
           <p>Data refreshes automatically every 5 minutes</p>
         </div>
       </footer>

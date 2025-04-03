@@ -30,7 +30,7 @@ export default function PointsTable({ teams }: PointsTableProps) {
         </TableHeader>
         <TableBody>
           {teams.map((team, index) => (
-            <TableRow key={team.id} className={index < 4 ? "bg-green-50 dark:bg-green-950/20" : ""}>
+            <TableRow key={team.id} className={index < 4 ? "bg-green-50 " : ""}>
               <TableCell className="text-center font-medium">{index + 1}</TableCell>
               <TableCell>
                 <div className="flex items-center space-x-2">

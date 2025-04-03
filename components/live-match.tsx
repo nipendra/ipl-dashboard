@@ -12,9 +12,9 @@ interface LiveMatchProps {
 export default function LiveMatch({ match }: LiveMatchProps) {
   if (!match) {
     return (
-      <Card className="border-2 border-dashed border-gray-200 dark:border-gray-700">
+      <Card className="border-2 border-dashed border-gray-200 ">
         <CardContent className="p-6 text-center">
-          <p className="text-gray-500 dark:text-gray-400">No match information available</p>
+          <p className="text-gray-500 ">No match information available</p>
         </CardContent>
       </Card>
     )
@@ -176,7 +176,7 @@ export default function LiveMatch({ match }: LiveMatchProps) {
 
         {!isLive && (
           <div className="p-4">
-            <div className="bg-gray-50 dark:bg-gray-800 p-3 rounded-md text-center">
+            <div className="bg-gray-50  p-3 rounded-md text-center">
               <p className="text-sm font-medium">{match.matchType}</p>
               <p className="text-sm text-gray-500 mt-2">{match.status_text || "Match starts soon"}</p>
             </div>

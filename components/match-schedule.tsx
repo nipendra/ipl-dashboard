@@ -28,7 +28,7 @@ export default function MatchSchedule({ matches }: MatchScheduleProps) {
     <div className="space-y-6">
       {Object.entries(groupedMatches).map(([date, dayMatches]) => (
         <div key={date} className="space-y-3">
-          <h3 className="text-md font-semibold sticky top-16 bg-gray-50 dark:bg-gray-900 py-2 z-10 flex items-center gap-2">
+          <h3 className="text-md font-semibold sticky top-16 bg-gray-50 py-2 z-10 flex items-center gap-2">
             <Calendar className="h-4 w-4 text-purple-500" />
             {new Date(date).toLocaleDateString("en-US", {
               weekday: "long",
@@ -41,7 +41,7 @@ export default function MatchSchedule({ matches }: MatchScheduleProps) {
             {dayMatches.map((match) => (
               <Card key={match.id} className="overflow-hidden">
                 <CardContent className="p-0">
-                  <div className="bg-gray-200 dark:bg-gray-700 p-2 text-xs font-medium flex justify-between">
+                  <div className="bg-gray-200  p-2 text-xs font-medium flex justify-between">
                     <span>
                       {match.matchNumber} • {match.matchType}
                     </span>
@@ -80,7 +80,7 @@ export default function MatchSchedule({ matches }: MatchScheduleProps) {
                       </div>
                     </div>
 
-                    <div className="flex justify-between text-xs text-gray-600 dark:text-gray-400">
+                    <div className="flex justify-between text-xs text-gray-600 ">
                       <div className="flex items-center space-x-1">
                         <Clock className="h-3 w-3" />
                         <span>{formatDate(match.date)}</span>

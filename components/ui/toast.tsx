@@ -18,7 +18,7 @@ export const Toast: React.FC<ToastProps> = ({ title, description, variant = "def
         "pointer-events-auto relative flex w-full items-center justify-between space-x-4 overflow-hidden rounded-md border p-6 pr-8 shadow-lg",
         variant === "destructive"
           ? "border-red-600 bg-red-600 text-white"
-          : "border-gray-200 bg-white text-gray-950 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50",
+          : "border-gray-200 bg-white text-gray-950",
       )}
     >
       <div className="grid gap-1">
@@ -28,7 +28,7 @@ export const Toast: React.FC<ToastProps> = ({ title, description, variant = "def
       {onClose && (
         <button
           onClick={onClose}
-          className="absolute right-2 top-2 rounded-md p-1 text-gray-950/50 opacity-70 transition-opacity hover:text-gray-950 hover:opacity-100 dark:text-gray-50/50 dark:hover:text-gray-50"
+          className="absolute right-2 top-2 rounded-md p-1 text-gray-950/50 opacity-70 transition-opacity hover:text-gray-950 hover:opacity-100"
         >
           <X className="h-4 w-4" />
         </button>
