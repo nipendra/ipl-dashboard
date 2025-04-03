@@ -35,11 +35,11 @@ This Next.js application provides cricket fans with a comprehensive dashboard to
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ipl-dashboard.git
-   cd ipl-dashboard
-   ```
-````
+
+```bash
+git clone https://github.com/yourusername/ipl-dashboard.git
+cd ipl-dashboard
+```
 
 2. Install dependencies:
 
@@ -114,16 +114,16 @@ Fetches IPL data including live match, upcoming matches, points table, and sched
 ```json
 {
   "liveMatch": {
-    /* Live match data if available */
+    // Live match data if available
   },
   "upcomingMatches": [
-    /* Array of upcoming matches */
+    // Array of upcoming matches
   ],
   "pointsTable": [
-    /* Array of team standings */
+    // rray of team standings
   ],
   "schedule": [
-    /* Array of all matches */
+    // Array of all matches
   ]
 }
 ```
@@ -143,7 +143,7 @@ The dashboard is built with a mobile-first approach:
 
 The main container component that manages data fetching and displays all sections.
 
-### LiveMatch
+### Live Match
 
 Displays detailed information about the current live match or upcoming match, including:
 
@@ -152,7 +152,7 @@ Displays detailed information about the current live match or upcoming match, in
 - Match status and progress
 - Batting and bowling statistics (for live matches)
 
-### PointsTable
+### Points Table
 
 Shows the current IPL standings with:
 
@@ -161,7 +161,7 @@ Shows the current IPL standings with:
 - Points and net run rate
 - Recent form (last 5 matches)
 
-### MatchSchedule
+### Match Schedule
 
 Presents the complete match schedule:
 
@@ -185,3 +185,4 @@ Presents the complete match schedule:
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Lucide React](https://lucide.dev/) for the icon set
+````
