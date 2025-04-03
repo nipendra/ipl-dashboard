@@ -54,7 +54,7 @@ export default function LiveMatch({ match }: LiveMatchProps) {
                 bg-gradient-to-r from-blue-500 via-blue-700 via-50% to-blue-900 
                 to-75% via-blue-700 via-100%">
             <div className="flex flex-col items-center">
-              <div className="relative h-16 w-16 rounded-full bg-amber-400 p-1 overflow-hidden">
+              <div className="relative h-16 w-16 rounded-full p-1 overflow-hidden bg-gray-200 border border-gray-500">
                 <Image
                   src={`/${match.team1.id}.svg?height=64&width=64&text=${match.team1.shortName}`}
                   alt={match.team1.name}
@@ -70,7 +70,7 @@ export default function LiveMatch({ match }: LiveMatchProps) {
             <div className="text-2xl font-bold">VS</div>
 
             <div className="flex flex-col items-center">
-              <div className="relative h-16 w-16 rounded-full bg-amber-400 p-1 overflow-hidden">
+              <div className="relative h-16 w-16 rounded-full p-1 overflow-hidden bg-gray-200 border border-gray-500">
                 <Image
                   src={`/${match.team2.id}.svg?height=64&width=64&text=${match.team2.shortName}`}
                   alt={match.team2.name}
